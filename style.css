@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(180, 181, 180);
+}
+#agr-img {
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+navbar ul {
+  list-style: none;
+  text-decoration: none;
+  background-color: black;
+}
+navbar ul li {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  
+}
+navbar ul li:hover {
+  background-color: green;
+}
+/* ...............dropdown -1.............. */
+.dropdown {
+  display: none;
+}
+.dropdown li {
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+navbar ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+  margin-left: -1cm;
+  margin-top: 10px;
+}
+/* ................dropdown -2............... */
+.dropdown-2 {
+  display: none;
+}
+.dropdown-2 li {
+  display: block;
+  text-align: center;
+}
+navbar ul li:hover .dropdown-2 {
+  display: block;
+  position: absolute;
+
+  margin-left: -0.1cm;
+  margin-top: 10px;
+}
+.dropdown-content a:hover {
+  background-color: #0c7623;
+}
+/* .........body.................... */
+.body-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+}
+.body-icons ul li {
+  box-shadow: 10px 10px 5px rgb(147, 157, 160);
+  border: 2px solid black;
+  height: 2rem;
+  width: 13rem;
+  margin-top: 2px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(31, 131, 31);
+}
+.icons-list li:hover {
+  background-color: rgb(11, 12, 11);
+
+  color: white;
+}
+.body-img {
+  height: 15rem;
+  width: 30rem;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px rgb(106, 108, 109);
+  border-radius: 15px;
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-gardening-template-design_23-2149829099.jpg?t=st=1726437876~exp=1726441476~hmac=0a9fc59087622b7cfacd46dfa8db6f28bc89d16e6a2b49f1c92459a928b3f2a9&w=1060");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+/* ..............footer..................... */
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+.social-media {
+  margin: 20px 0;
+}
+.social-media a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.social-media a:hover {
+  color: #4536f3;
+}
+footer p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
+}
